@@ -1,0 +1,17 @@
+version: '2.4'
+
+services:
+
+  db:
+    image: mysql # A última versão que será utilizada
+    container_name: mysql-container
+    environment:
+      MYSQL_ROOT_PASSWORD: root
+
+    ports:
+      - "3306:3306"#PORTAR_CONTAINER:PORTAR_DO_PC
+    volumes:
+      - devdojo_maratona_java:/var/lib/mysql-container
+
+volumes:
+  devdojo_maratona_java:
