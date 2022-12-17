@@ -21,16 +21,16 @@ public class Arrays02 {
 
         for (int i = 0; i < dias.length; i++) {
             for (int x = 0; x < dias[i].length; x++) { // Para acessar as posições do array
-                System.out.println(dias[i][x]);// para imprimir o array em suas 3 posições
+                System.out.print(" "+dias[i][x]);// para imprimir o array em suas 3 posições
             }//2° for
 
         }//for
-        System.out.println("==========================================");
+        System.out.println("\n==========================================");
         //OUTRA FORMA DE IMPRIMIR OS VALORES DO ARRAY
 
         for (int[] arrayBase : dias) {
             for (int num : arrayBase) {
-                System.out.println(num);
+                System.out.print(" "+num);
             }//2° for
 
         }//1° for

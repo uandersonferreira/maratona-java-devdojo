@@ -5,12 +5,14 @@ public class EestruturasDeRepeticao01 {
         //while, do while, for
         int contador = 0;
 
-        while(contador < 10){
+        while(contador <= 10){
             System.out.println(contador);
             contador += 1; // contador = contador + 1
         }
+
         contador = 0;
         do{
+            //Executa ao menos uma vez esse bloco mesmo que a condição seja false
             System.out.println("Dentro do do-while "+ ++contador);
         }while(contador < 10);
 

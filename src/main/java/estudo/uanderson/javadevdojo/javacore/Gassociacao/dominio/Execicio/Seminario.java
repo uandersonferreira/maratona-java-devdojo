@@ -2,7 +2,7 @@ package estudo.uanderson.javadevdojo.javacore.Gassociacao.dominio.Execicio;
 
 public class Seminario {
     private String titulo;
-    private Aluno alunos[]; //-UM SEMINÁRIO PODERÁ TER NENHUM OU VÁRIOS ALUNOS ( Agregação unidirecional)
+    private Aluno[] alunos; //-UM SEMINÁRIO PODERÁ TER NENHUM OU VÁRIOS ALUNOS ( Agregação unidirecional)
     private Local local;//   -UM SEMINÁRIO DEVE TER UM LOCAL ( Associação unidirecional)
 
 

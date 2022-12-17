@@ -67,13 +67,16 @@ public class Operadores {
 
       //++, --
       int contador = 0;
-      contador += 1;
-      contador++;
+      contador += 1;// contador = contador + 1
+      contador++; // primeiro executa depois imcrementa
       contador--;
-      ++contador;
+      ++contador; // primeiro imcrementa depois executa
       --contador;
 
       System.out.println("Contador: "+contador);
+      int contador2 = 0;
+      System.out.println("Contador2: "+contador2++);
+      System.out.println("Contador2: "+contador2);
 
 
 

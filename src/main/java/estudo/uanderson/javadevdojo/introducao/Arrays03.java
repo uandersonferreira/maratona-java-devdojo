@@ -14,17 +14,17 @@ public class Arrays03 {
 
         for (int[] arrayBase : arrayInt) {// cria uma referencia para ter acesso ao arrayInt
             for (int num : arrayBase) {//
-                System.out.println(num + " ");
+                System.out.print(num + " ");
             }
         }
-        System.out.println("==================================================");
+        System.out.println("\n==================================================");
         // Outra forma de se innicializar um array multidimencional
 
     String[][] arrayDeString = {{"*","*","*"},{"*","*","*"},{"*","*","*"}};
 
         for (String[] arrayBase : arrayDeString) {// cria uma referencia para ter acesso ao arrayInt
             for (String string : arrayBase) {//
-                System.out.println(string + "  ");
+                System.out.print(string + "  ");
             }
         }
 

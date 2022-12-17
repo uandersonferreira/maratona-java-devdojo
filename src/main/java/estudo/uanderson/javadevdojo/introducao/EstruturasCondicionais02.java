@@ -22,3 +22,9 @@ public class EstruturasCondicionais02 {
         // System.out.println(categoria);
     }
 }
+/*
+OBS: VARIAVÉIS DE ESCOPO LOCAL, TẼM QUE SER
+INICIALIZADAS!
+(criadas dentro de métodos, fora do bloco da class)
+- Pode gerar erro de compilação
+ */

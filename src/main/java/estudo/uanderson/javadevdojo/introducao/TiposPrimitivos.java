@@ -5,7 +5,7 @@ public class TiposPrimitivos {
         //int, double, float, char, byte, short, long, boolean
 
         int idade = 10;
-        long numerosGrandes = 100000000;
+        long numerosGrandes = 100000000L;
         byte idadeByte = 127;
         double salarioDouble = 1000.85;
         float salarioFloat = 100.50F;
