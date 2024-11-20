@@ -1,0 +1,218 @@
+class NoDuplo<T> {
+    
+    private T conteudo;
+    private NoDuplo<T> noProximo;//NoPosterior
+    private NoDuplo<T> noPrevio;//NoAnterior
+
+    public NoDuplo(T conteudo) {
+        this.conteudo = conteudo;
+    }
+
+    public T getConteudo() {
+        return conteudo;
+    }
+
+    public void setConteudo(T conteudo) {
+        this.conteudo = conteudo;
+    }
+
+    public NoDuplo<T> getNoProximo() {
+        return noProximo;
+    }
+
+    public void setNoProximo(NoDuplo<T> noProximo) {
+        this.noProximo = noProximo;
+    }
+
+    public NoDuplo<T> getNoPrevio() {
+        return noPrevio;
+    }
+
+    public void setNoPrevio(NoDuplo<T> noPrevio) {
+        this.noPrevio = noPrevio;
+    }
+
+    @Override
+    public String toString() {
+        return "NoDuplo [conteudo=" + conteudo + "]";
+    }
+
+
+}//class
+
+
+
+class ListaDuplamenteEncadeada<T> {
+
+    private NoDuplo<T> referenciaPrimeiroNo;
+
+    private NoDuplo<T> referenciaUltimoNo;
+
+    private int tamanhoLista;
+
+    public ListaDuplamenteEncadeada() {
+        this.referenciaPrimeiroNo = null;
+        this.referenciaUltimoNo = null;
+        this.tamanhoLista = 0;
+    } 
+
+    public T get(int index) {
+        return this.getNo(index).getConteudo();
+    }
+
+    public void add(T elemento) {
+        NoDuplo<T> novoNo = new NoDuplo<>(elemento);
+    
+        novoNo.setNoProximo(null);
+    
+        novoNo.setNoPrevio(referenciaUltimoNo);
+    
+        if (referenciaPrimeiroNo == null){
+            referenciaPrimeiroNo = novoNo;
+        }
+    
+        if (referenciaUltimoNo != null){
+            referenciaUltimoNo.setNoProximo(novoNo);
+        } 
+    
+        referenciaUltimoNo = novoNo;
+    
+        tamanhoLista++;
+    }
+    
+    public void add(int index, T elemento) {
+ 
+        NoDuplo<T> noAuxiliar = getNo(index);
+        
+        NoDuplo<T> novoNo = new NoDuplo<>(elemento);
+        
+ 
+      
+        novoNo.setNoProximo(noAuxiliar);
+    
+        if (novoNo.getNoProximo() != null) {
+   
+            novoNo.setNoPrevio(noAuxiliar.getNoPrevio());
+    
+            novoNo.getNoProximo().setNoPrevio(novoNo);
+
+        } else {
+      
+            novoNo.setNoPrevio(referenciaUltimoNo);
+    
+            referenciaUltimoNo = novoNo;
+        }
+    
+        if (index == 0) {
+  
+            referenciaPrimeiroNo = novoNo;
+
+        } else {
+        
+            novoNo.getNoPrevio().setNoProximo(novoNo);
+        }
+    
+        tamanhoLista++;
+    }
+    
+ 
+    public void remove(int index) {
+        if (index == 0) {
+            referenciaPrimeiroNo = referenciaPrimeiroNo.getNoProximo(); 
+            if (referenciaPrimeiroNo != null) {
+                referenciaPrimeiroNo.setNoPrevio(null); 
+            }
+        } else {
+            NoDuplo<T> noAuxiliar = getNo(index); // Obtém o nó na posição especificada
+            noAuxiliar.getNoPrevio().setNoProximo(noAuxiliar.getNoProximo());
+            if (noAuxiliar != referenciaUltimoNo) {
+                noAuxiliar.getNoProximo().setNoPrevio(noAuxiliar.getNoPrevio());
+            } else {
+                referenciaUltimoNo = noAuxiliar.getNoPrevio();
+            }
+        }
+    
+        this.tamanhoLista--;     }
+
+
+
+    private NoDuplo<T> getNo(int index) {
+        NoDuplo<T> noAuxiliar = referenciaPrimeiroNo;
+
+        for (int i = 0; (i < index) && (noAuxiliar != null); i++) {
+            noAuxiliar = noAuxiliar.getNoProximo();
+        }
+        return noAuxiliar;
+
+    }
+
+    public int size() {
+        return this.tamanhoLista;
+    }
+
+    @Override
+    public String toString() {
+        String strRetorno = "";
+
+        NoDuplo<T> noAuxiliar = referenciaPrimeiroNo;
+        for (int i = 0; i < size(); i++) {
+            strRetorno += "[No{conteudo= " + noAuxiliar.getConteudo() +"}] --> ";
+            noAuxiliar = noAuxiliar.getNoProximo();
+        }
+
+        strRetorno += "null";
+        return strRetorno;
+    }
+
+}// class
+
+
+public class Main {
+    public static void main(String[] args) {
+        ListaDuplamenteEncadeada<String> minhaListaEncadeada = new ListaDuplamenteEncadeada();
+
+        minhaListaEncadeada.add("c1");//0
+        minhaListaEncadeada.add("c2");//1
+        minhaListaEncadeada.add("c3");//2
+        minhaListaEncadeada.add("c4");//3
+        minhaListaEncadeada.add("c5");//4
+        minhaListaEncadeada.add("c6");//5
+        minhaListaEncadeada.add("c7");//6
+
+        System.out.println(minhaListaEncadeada);
+
+        minhaListaEncadeada.remove(3);//c4
+        
+        System.out.println(minhaListaEncadeada);
+        
+        minhaListaEncadeada.add(3, "99");
+
+        System.out.println(minhaListaEncadeada);
+        
+      System.out.println(minhaListaEncadeada.get(3));
+      System.out.println(minhaListaEncadeada.get(8) + " ");
+
+
+        
+        /*
+        SAÍDA:
+        [No{conteudo= c1}] --> [No{conteudo= c2}] --> [No{conteudo= c3}] --> [No{conteudo= c4}] --> [No{conteudo= c5}] --> [No{conteudo= c6}] --> [No{conteudo= c7}] --> null
+        [No{conteudo= c1}] --> [No{conteudo= c2}] --> [No{conteudo= c3}] --> [No{conteudo= c5}] --> [No{conteudo= c6}] --> [No{conteudo= c7}] --> null
+        [No{conteudo= c1}] --> [No{conteudo= c2}] --> [No{conteudo= c3}] --> [No{conteudo= 99}] --> [No{conteudo= c5}] --> [No{conteudo= c6}] --> [No{conteudo= c7}] --> null
+
+        */
+
+
+
+    }//main
+}//class
+
+
+
+
+
+
+
+
+
+
