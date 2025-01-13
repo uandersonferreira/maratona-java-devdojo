@@ -1,3 +1,5 @@
+package animalshop;
+
 public class Fish extends Animal{
     private String waterType;
 

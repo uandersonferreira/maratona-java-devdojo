@@ -21,7 +21,7 @@ public class StringOperations{
     //identifique qual valor da string vem primeiro
     System.out.println(str1.compareTo(str2));
     //compare 2 strings para ver se elas são iguais 
-    System.out.println(str1.equals(str2))
+    System.out.println(str1.equals(str2));
 
    
 

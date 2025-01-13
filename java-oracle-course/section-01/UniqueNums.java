@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 public class UniqueNums{
     public static void main(String[] args) {
         int[] numbers = new int[5];

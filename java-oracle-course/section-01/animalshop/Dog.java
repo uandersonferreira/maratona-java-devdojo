@@ -1,3 +1,5 @@
+package animalshop;
+
 public class Dog extends Animal{
     //instance field declarations
     private String name;

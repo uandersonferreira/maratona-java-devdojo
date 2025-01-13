@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 public class ValueChecker{
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
@@ -15,8 +17,7 @@ public class ValueChecker{
 
          }
          else if(value != 0){
-           System.out.println("That's number is neither lucky 
-            no unlucky!");
+           System.out.println("That's number is neither lucky no unlucky!");
          }
 
         }while(value != 0);

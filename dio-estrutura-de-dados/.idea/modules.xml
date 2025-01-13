@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/collections/collections.iml" filepath="$PROJECT_DIR$/collections/collections.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/dio-estrutura-de-dados.iml" filepath="$PROJECT_DIR$/.idea/dio-estrutura-de-dados.iml" />
+      <module fileurl="file://$PROJECT_DIR$/estruturas-de-dados/estruturas-de-dados.iml" filepath="$PROJECT_DIR$/estruturas-de-dados/estruturas-de-dados.iml" />
+      <module fileurl="file://$PROJECT_DIR$/estruturas-de-dados/lista/lista.iml" filepath="$PROJECT_DIR$/estruturas-de-dados/lista/lista.iml" />
+      <module fileurl="file://$PROJECT_DIR$/estruturas-de-dados/pilha/pilha.iml" filepath="$PROJECT_DIR$/estruturas-de-dados/pilha/pilha.iml" />
+      <module fileurl="file://$PROJECT_DIR$/estruturas-de-dados/pilha/teste03-refatoracao/teste03-refatoracao.iml" filepath="$PROJECT_DIR$/estruturas-de-dados/pilha/teste03-refatoracao/teste03-refatoracao.iml" />
+    </modules>
+  </component>
+</project>

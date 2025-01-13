@@ -1,3 +1,5 @@
+package animalshop;
+
 public class AnimalTester{
     public static void main(String args[]) {
         Dog dog1 = new Dog("Bailey", "Boerboel", "arf-arf",80.2, "brown");
