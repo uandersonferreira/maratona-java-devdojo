@@ -5,13 +5,15 @@ public enum TipoCliente {
      PESSOA_JURIDICA(2, "Person Jurídica");
 
    public final int VALOR;//garante que pessoa_fisica ou juridica tenha sempre a numeração definida associada a eles.
-    public String nomeRelatorio;
-     TipoCliente(int valor, String nomeRelatorio ) {
+   public String nomeRelatorio;
+   
+   TipoCliente(int valor, String nomeRelatorio ) {
           this.VALOR = valor;
           this.nomeRelatorio = nomeRelatorio;
-     }
+    
+   }
 
-     public static TipoCliente tipoClientePorNomeRelatorio(String nomeRelatorio){
+   public static TipoCliente tipoClientePorNomeRelatorio(String nomeRelatorio){
          for (TipoCliente tipoCliente : values()) {
              if (tipoCliente.getNomeRelatorio().equals(nomeRelatorio)){
                  return tipoCliente;
@@ -23,8 +25,11 @@ public enum TipoCliente {
          Estamos Interando sobre os valores do Objeto TipoCliente(classe é um objeto)
          é comparando se o valor do tipocliente é igual ao valor que está sendo passado
          por paramentro.
+
+         -  values() -> retorna um arrays com todas as constantes do array [PESSOA_FISICA, PESSOA_JURIDICA]
+         
           */
-     }
+    }
 
     public String getNomeRelatorio() {
         return nomeRelatorio;

@@ -20,16 +20,16 @@ public class Datebaseloader implements DataLoader, DataRemove{
 
     public static void retrieveMaxDataSize(){
         System.out.println("Dentro do retrieveMaxDataSize da classe Datebaseloader ");
-        //por não ser permitido a sobreescrita de um método statico e criado
-        //dois métodos com o mesmo nome, porém pertencem a classe distintas.
+        /* 
+        por não ser permitido a sobreescrita de um método statico (pois são methods de da class e não de Objeto) e criado dois métodos com o mesmo nome, porém pertencem a classe distintas.
+        */
     }
 
     /*
-    -Quando queremos utilizar uma interface nas nossas classes,  utilizamos
-    a clausula "implments" + NomeDaInterface. Portando quando for
-    Infercade para Classe --> implements
-    Classe para Classe --> extends
-
+    Quando queremos utilizar uma interface nas nossas classes,  utilizamos
+    a clausula "implements" + NomeDaInterface. Portando quando for:
+    > Interface para Classe --> implements
+    > Classe para Classe --> extends
 
      */
 }//class

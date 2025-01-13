@@ -33,5 +33,47 @@ public class EstruturasCondicionais04 {
                 break;
         }
 
-    }
-}
+        char sexo = 'M';
+       // String sexo = "M";
+        switch (sexo) {
+            case 'M':
+                System.out.println("Homem");
+                break;
+            case ('F'): {
+                //Blocos de código é valdios nos switch, mas não é muito usado
+                System.out.println("Mulher");   
+                break; 
+            }
+        
+            default:
+            System.out.println("Inválido");
+                break;
+        }
+
+        /*
+         Utilizando switch e dados os valores de 1a 7, imprima se é dia útil ou final de semana
+         consoderando 1 como domingo
+         */
+
+         byte diaDaSemana = 1;
+         switch (diaDaSemana) {
+            case 1:
+            case 7:
+                System.out.println("FDS");
+                break;
+            case 2:
+            case 3:
+            case 4:
+            case 5:
+            case 6:
+                System.out.println("Dia útil");
+                break;    
+            default:
+                 System.out.println("Opção, inválida!");
+                break;
+         }
+
+
+
+    }//main
+}//class

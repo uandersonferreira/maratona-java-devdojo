@@ -1,8 +1,12 @@
 package estudo.uanderson.javadevdojo.javacore.Lclassesabstratas.dominio;
 
-public abstract class  Funcionario extends Pessoa {
+import java.util.ArrayList;
+import java.util.List;
+
+public abstract class  Funcionario extends Pessoa { //CLASSE B
     protected String nome;
     protected double salario;
+    List<Funcionario> funcionarios = new ArrayList<>();
 
     public Funcionario(String nome, double salario) {
         this.nome = nome;
@@ -11,6 +15,14 @@ public abstract class  Funcionario extends Pessoa {
     }
 
     public abstract void calcularBonus();
+
+    public void create(Funcionario funcionario){
+        funcionarios.add(funcionario);
+    }
+    
+    public void remove(Funcionario funcionario){
+        funcionarios.remove(funcionario);
+    }
 
     @Override
     public void imprime() {
@@ -21,20 +33,23 @@ public abstract class  Funcionario extends Pessoa {
     CLASSES ABSTRATAS SÃO COMO TEMPLETES/MODELOS/SUPERCLASSES A SER SEGUIDAS
     POR CLASSES QUE EXTENDEM DELA/HERDAM DELA.
     -UMA CLASSE ABSTRATADA NÃO PODE SER INSTÂNCIADA, NÃO PODE CRIAR NOVOS OBJETOS (FUNCIONARIO F = NEW FUNCIONARIO() )
-    -E NÃO PODEMOS MISTURAR FINAL COM ABSTRACT
+   
+    - E NÃO PODEMOS MISTURAR:
+     - FINAL(não pode ser extendida) COM 
+     - ABSTRACT ( quero extender )
 
-    -MÉTODOS ABSTRATOS SÃO UTILIZADOS PARA QUANDO QUEREMO QUE AS SUBCLASSES REALIZE UMA
+    - MÉTODOS ABSTRATOS SÃO UTILIZADOS PARA QUANDO QUEREMOS QUE AS SUBCLASSES REALIZE UMA
     IMPLEMENTAÇÃO DO MÉTODO COM SUA PROPRIA LÓGICA(TIPO CALCULAR O BONUS DE FUNCIONÁRIOS DIFERENTES),
     PORTANDO ELE FUNCIONA COMO UM SINALIZADOR, FLEG, QUE INDICA QUE QUANDO CRIAMOS SUBCLASSES QUE
     HERDAM DA SUPERCLASSE É NECESSÁRIO IMPLEMENTAR O METODO ABSTRATO.
-    -LEMBRANDO QUE O METODO ABSTRATO DA SUPERCLASSE NÃO POSSUEM MAIS CORPO/BLOCO:
+    - LEMBRANDO QUE O METODO ABSTRATO DA SUPERCLASSE NÃO POSSUEM MAIS CORPO/BLOCO:
       Ex: public abstract void calcularBonus();
 
-   -SENDO ASSIM, METODOS ABSTRATOS GARANTEM QUE TODAS AS SUBCLASSES, devem POSSUIR O
+   - SENDO ASSIM, METODOS ABSTRATOS GARANTEM QUE TODAS AS SUBCLASSES, devem POSSUIR O
    O METODO calcularBonus() da classe Funcionario;
 
-   -É NUMA CLASSE ABSTRACT PODEMOS TER MÉTODOS ABSTRACT OU NÃO.
-   -NÃO PODEMOS TER MÉTODOS ABSTRACT EM CLASSES NÃO ABSTRACT(CLASSES CONCRETAS), POIS
+   - É NUMA CLASSE ABSTRACT PODEMOS TER MÉTODOS ABSTRACT OU NÃO.
+   - NÃO PODEMOS TER MÉTODOS ABSTRACT EM CLASSES NÃO ABSTRACT(CLASSES CONCRETAS), POIS
    MÉTODOS ABSTRACT SÓ PODEM EXISTIR DENTRO DE CLASSES ABSTRACTS.
 
 

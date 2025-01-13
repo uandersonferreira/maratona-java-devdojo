@@ -9,6 +9,9 @@ public class ExceptionTest01 {
 
     }//main
 
+    /**
+     * @throws RuntimeException caso não seja possível criar o file
+     */
     private static void criarNovoArquivo(){
         File file = new File("arquivo\\teste.txt");
 
@@ -18,6 +21,8 @@ public class ExceptionTest01 {
         } catch (IOException e) {
             e.printStackTrace();
             //AVISO DE ERRO-NUNCA DEIXAR EM BRANCO
+           throw new RuntimeException("Deu erro ao criar o arquivo"); // lancar uma RuntimeException  e não força o tratamento com o ( throws IOException) para quem chama, deixando opcional o tratamento. Mas lembre-se, toda exeção deve ser tratada, então se não informamos a FLAG da Runtime (Não é obrigatória) DEVEMOS informar na DOC do java que pode lançar um erro.
+        
         }
     }//method
 
@@ -38,7 +43,7 @@ public class ExceptionTest01 {
      3°- CASO QUEIRA REALIZAR O TRAMENTO E LANÇAR A EXEÇÃO PRA FRENTE, RECOMENDA-SE
      REALIZAR UM TRATAMENTO HIBRIDO, ONDE IRÁ SER FEITO O TRY/CATCH E LANÇADO A EXCEÇÃO
      PARA FRENTE COM O THROWS NO CATCH E THROWS IOEXCEPTION, APÓS O
-     PARENTES.
+     PARENTES. (quando eu quero mostrar no console e retorna o erro para quem está chamando)
      Ex:
   public static void criarNovoArquivo() throws IOException{
         File file = new File("arquivo\\teste.txt");
@@ -48,7 +53,8 @@ public class ExceptionTest01 {
             System.out.println("Arquivo criado: "+isCreate);
         } catch (IOException e) {
             e.printStackTrace();
-            throws e;
+            throws e; //Já existe a execption, então não precisa do 'new' para criar uma
+            // throw new RuntimeException("Deu erro ao criar o arquivo"); //ou podemos lancar uma RuntimeException  e não força o tratamento com o ( throws IOException) para quem chama, deixando opcional. 
         }
     }//method
      */

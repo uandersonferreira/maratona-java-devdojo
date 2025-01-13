@@ -13,3 +13,26 @@ public class CalculadoraTest05 {
 
     }
 }
+
+/*
+
+Regras e Restrições
+Somente um Varargs por Método:
+
+Um método pode ter apenas um parâmetro varargs.
+Ele deve ser o último parâmetro na lista:
+
+    public void metodoComVarargs(String nome, int... numeros) { }
+    Incompatibilidade com Tipos Diferentes:
+
+Todos os argumentos precisam ser do mesmo tipo (ou compatíveis por promoção de tipos).
+Ambiguidade com Sobrecarga:
+
+Métodos sobrecarregados com varargs podem levar a ambiguidades. Por exemplo:
+
+public void metodo(int a, int b) { }
+public void metodo(int... numeros) { }
+Uma chamada como metodo(1, 2) pode causar conflito
+
+
+ */

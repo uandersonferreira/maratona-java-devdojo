@@ -14,6 +14,7 @@ public enum TipoPagamento{
     };
 
     public abstract double calcularDesconto(double valor);
+    
     /*
            QUANDO QUEREMOS CRIAR UM MÉTODO, ONDE O SEU COMPORTAMENTO
            VAO SER DEFINIDO DENTRO DO BLOCO DE EXECUÇÃO DA OPÇAO ESCOLHIDA, QUE IRÁ

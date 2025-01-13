@@ -20,13 +20,22 @@ public class Arrays03 {
         System.out.println("\n==================================================");
         // Outra forma de se innicializar um array multidimencional
 
-    String[][] arrayDeString = {{"*","*","*"},{"*","*","*"},{"*","*","*"}};
+        String[][] arrayDeString = {{"*","*"},{"*","*","*"},{"*","*","*","*","*","*"}};
 
         for (String[] arrayBase : arrayDeString) {// cria uma referencia para ter acesso ao arrayInt
+            System.out.println("\n-----");
             for (String string : arrayBase) {//
                 System.out.print(string + "  ");
             }
         }
+
+        int[][] arrayInt2 = { {0,0}, {1,2,3}, {1,2,3,4,5,6} }; 
+        /* 
+        BASE VAI SER 3 {},{},{} e a referência para os arrays, vai ser a quantidade de 
+        elementos que cada {} possui no caso vai ser um array de: 2|3|6 posições.
+
+        */
+
 
 
     }//main

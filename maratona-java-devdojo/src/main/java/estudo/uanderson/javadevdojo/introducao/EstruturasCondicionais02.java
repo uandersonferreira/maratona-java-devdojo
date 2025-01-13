@@ -8,6 +8,7 @@ public class EstruturasCondicionais02 {
        3°-Idade >= 18 categoria adulto
         */
         int idade = 17;
+        //String categoria;
 
         if (idade < 15) {
             System.out.println("Categoria Infantil");

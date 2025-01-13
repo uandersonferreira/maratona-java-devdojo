@@ -6,7 +6,7 @@ public class Anime {
 
     //0 - Bloco de Inicialização static é executado quando a JVM carregar a classe.
     //1°- È Alocado espaço em memória para o Objeto!
-    //2°- Cada atributo de classe é criado e inicializado com valores default ou o quer dor pré-definidos.
+    //2°- Cada atributo de classe é criado e inicializado com valores default ou o quer for pré-definidos.
     //3°- Bloco de Inicialização é executado
     //4° Construtor é executado
 

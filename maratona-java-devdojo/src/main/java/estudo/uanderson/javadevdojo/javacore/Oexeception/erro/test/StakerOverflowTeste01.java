@@ -7,13 +7,10 @@ public class StakerOverflowTeste01 {//Error- de armazenamento de memória
 
 
     public static void recursividade(){
-        recursividade();
+        recursividade(); //fica se auto-chamando (o próprio método) até a memória acabar
     }
     /*
-    Errors, não é possível recuperar em tempo de execução
+        Errors, não é possível recuperar em tempo de execução
      */
 }//class
 
-/*
-
- */

@@ -9,3 +9,4 @@ public class AnimeTest01 {
         Anime anime3 = new Anime();
     }
 }
+

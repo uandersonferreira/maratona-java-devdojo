@@ -1,17 +1,26 @@
 package estudo.uanderson.javadevdojo.javacore.Eblocosdeinicializacao.dominio;
 
 public class Anime {
-    private String nome;
-    private int[] episodios;
+    // Os atributos de instância são criados e inicializados com valores padrão
+    private String nome; // Valor padrão: null
+    private int[] episodios; // Valor padrão: null (pois é uma referência)
 
-    //1°- È Alocado espaço em memória para o Objeto!
-    //2°- Cada atributo de classe é criado e inicializado com valores default ou o quer dor pré-definidos.
-    //3°- Bloco de Inicialização é executado
-    //4° Construtor é executado
+    // Explicação sobre os passos de inicialização:
+    // 1° - É alocado espaço em memória para o objeto.
+    // 2° - Cada atributo de classe é criado e inicializado com valores padrão (ou valores pré-definidos).
+    //     a. Tipos primitivos:
+    //        - byte, short, int, long: 0
+    //        - float, double: 0.0
+    //        - char: '\u0000' (valor Unicode para o caractere nulo)
+    //        - boolean: false
+    //     b. Tipos de referência (objetos, arrays, etc.):
+    //        - null
+    // 3° - Bloco de inicialização é executado.
+    // 4° - Construtor é executado.
 
-
-    //De instância, pois se refere a classe que está, sendo instanciada, portanto irá se criado
-    //toda vez que se criar uma nova instância desse classe. ex: Anime anime = new Anime();
+    // Bloco de inicialização:
+    // Este é um bloco de inicialização de instância, ou seja, será executado toda vez que
+    // uma instância desta classe for criada. Exemplo: `Anime anime = new Anime();`.
     {
         System.out.println("Dentro do bloco de inicialização!");
 

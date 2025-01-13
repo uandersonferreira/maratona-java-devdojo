@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="5c29c390-44ca-4b62-ab18-5f84de64e920" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jpa-buddy.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_protobuf_protobuf_java_3_19_4.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_mysql_mysql_connector_j_8_0_31.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_api_2_19_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_core_2_19_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apiguardian_apiguardian_api_1_1_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_api_5_9_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_commons_1_9_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_opentest4j_opentest4j_1_2_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_projectlombok_lombok_1_18_24.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sqldialects.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Maratona-Java-DevDojo.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/estudo/uanderson/javadevdojo/introducao/Arrays01.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/estudo/uanderson/javadevdojo/introducao/Arrays01.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/estudo/uanderson/javadevdojo/introducao/Arrays02.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/estudo/uanderson/javadevdojo/introducao/Arrays02.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/estudo/uanderson/javadevdojo/introducao/Arrays03.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/estudo/uanderson/javadevdojo/introducao/Arrays03.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/estudo/uanderson/javadevdojo/introducao/EestruturasDeRepeticao01.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/estudo/uanderson/javadevdojo/introducao/EestruturasDeRepeticao01.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/estudo/uanderson/javadevdojo/introducao/EstruturaDeRePeticao04.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/estudo/uanderson/javadevdojo/introducao/EstruturaDeRePeticao04.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/estudo/uanderson/javadevdojo/introducao/EstruturaDeRePeticao05.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/estudo/uanderson/javadevdojo/introducao/EstruturaDeRePeticao05.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/estudo/uanderson/javadevdojo/introducao/EstruturasCondicionais01.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/estudo/uanderson/javadevdojo/introducao/EstruturasCondicionais01.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/estudo/uanderson/javadevdojo/introducao/EstruturasCondicionais02.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/estudo/uanderson/javadevdojo/introducao/EstruturasCondicionais02.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/estudo/uanderson/javadevdojo/introducao/EstruturasCondicionais03.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/estudo/uanderson/javadevdojo/introducao/EstruturasCondicionais03.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/estudo/uanderson/javadevdojo/introducao/EstruturasCondicionais04.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/estudo/uanderson/javadevdojo/introducao/EstruturasCondicionais04.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/estudo/uanderson/javadevdojo/introducao/ExecicioDeRepeticaoFor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/estudo/uanderson/javadevdojo/introducao/ExecicioDeRepeticaoFor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/estudo/uanderson/javadevdojo/introducao/Operadores.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/estudo/uanderson/javadevdojo/introducao/Operadores.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/estudo/uanderson/javadevdojo/introducao/TiposPrimitivos.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/estudo/uanderson/javadevdojo/introducao/TiposPrimitivos.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/estudo/uanderson/javadevdojo/introducao/TiposPrimitivosExercicios.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/estudo/uanderson/javadevdojo/introducao/TiposPrimitivosExercicios.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/estudo/uanderson/javadevdojo/javacore/Aintroducaoclasses/dominio/Carro.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/estudo/uanderson/javadevdojo/javacore/Aintroducaoclasses/dominio/Carro.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/estudo/uanderson/javadevdojo/javacore/Aintroducaoclasses/dominio/Estudante.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/estudo/uanderson/javadevdojo/javacore/Aintroducaoclasses/dominio/Estudante.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/estudo/uanderson/javadevdojo/javacore/Aintroducaoclasses/test/CarroTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/estudo/uanderson/javadevdojo/javacore/Aintroducaoclasses/test/CarroTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/estudo/uanderson/javadevdojo/javacore/Aintroducaoclasses/test/EstudanteTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/estudo/uanderson/javadevdojo/javacore/Aintroducaoclasses/test/EstudanteTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/estudo/uanderson/javadevdojo/javacore/Bintroducaometodos/dominio/Calculadora.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/estudo/uanderson/javadevdojo/javacore/Bintroducaometodos/dominio/Calculadora.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/estudo/uanderson/javadevdojo/javacore/Bintroducaometodos/dominio/Estudante01.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/estudo/uanderson/javadevdojo/javacore/Bintroducaometodos/dominio/Estudante01.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/estudo/uanderson/javadevdojo/javacore/Bintroducaometodos/dominio/Funcionario.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/estudo/uanderson/javadevdojo/javacore/Bintroducaometodos/dominio/Funcionario.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/estudo/uanderson/javadevdojo/javacore/Bintroducaometodos/dominio/ImpressoraEstudante.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/estudo/uanderson/javadevdojo/javacore/Bintroducaometodos/dominio/ImpressoraEstudante.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/estudo/uanderson/javadevdojo/javacore/Bintroducaometodos/dominio/Pessoa.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/estudo/uanderson/javadevdojo/javacore/Bintroducaometodos/dominio/Pessoa.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/estudo/uanderson/javadevdojo/javacore/Bintroducaometodos/test/CalculadoraTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/estudo/uanderson/javadevdojo/javacore/Bintroducaometodos/test/CalculadoraTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/estudo/uanderson/javadevdojo/javacore/Bintroducaometodos/test/CalculadoraTest02.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/estudo/uanderson/javadevdojo/javacore/Bintroducaometodos/test/CalculadoraTest02.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/estudo/uanderson/javadevdojo/javacore/Bintroducaometodos/test/CalculadoraTest03.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/estudo/uanderson/javadevdojo/javacore/Bintroducaometodos/test/CalculadoraTest03.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/estudo/uanderson/javadevdojo/javacore/Bintroducaometodos/test/CalculadoraTest04.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/estudo/uanderson/javadevdojo/javacore/Bintroducaometodos/test/CalculadoraTest04.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/estudo/uanderson/javadevdojo/javacore/Bintroducaometodos/test/CalculadoraTest05.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/estudo/uanderson/javadevdojo/javacore/Bintroducaometodos/test/CalculadoraTest05.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/estudo/uanderson/javadevdojo/javacore/Bintroducaometodos/test/Estudantetest01.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/estudo/uanderson/javadevdojo/javacore/Bintroducaometodos/test/Estudantetest01.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/estudo/uanderson/javadevdojo/javacore/Bintroducaometodos/test/FuncionarioTeste01.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/estudo/uanderson/javadevdojo/javacore/Bintroducaometodos/test/FuncionarioTeste01.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/estudo/uanderson/javadevdojo/javacore/Bintroducaometodos/test/PessoaTeste01.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/estudo/uanderson/javadevdojo/javacore/Bintroducaometodos/test/PessoaTeste01.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/estudo/uanderson/javadevdojo/javacore/Csobrecargametodos/dominio/Anime.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/estudo/uanderson/javadevdojo/javacore/Csobrecargametodos/dominio/Anime.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/estudo/uanderson/javadevdojo/javacore/Csobrecargametodos/teste/AnimeTest01.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/estudo/uanderson/javadevdojo/javacore/Csobrecargametodos/teste/AnimeTest01.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/estudo/uanderson/javadevdojo/javacore/Dconstrutor/dominio/Anime.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/estudo/uanderson/javadevdojo/javacore/Dconstrutor/dominio/Anime.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/estudo/uanderson/javadevdojo/javacore/Dconstrutor/test/AnimeTest01.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/estudo/uanderson/javadevdojo/javacore/Dconstrutor/test/AnimeTest01.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/estudo/uanderson/javadevdojo/javacore/Eblocosdeinicializacao/dominio/Anime.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/estudo/uanderson/javadevdojo/javacore/Eblocosdeinicializacao/dominio/Anime.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/estudo/uanderson/javadevdojo/javacore/Eblocosdeinicializacao/test/AnimeTest01.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/estudo/uanderson/javadevdojo/javacore/Eblocosdeinicializacao/test/AnimeTest01.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/estudo/uanderson/javadevdojo/javacore/Fmodificadoresestaticos/domain/Anime.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/estudo/uanderson/javadevdojo/javacore/Fmodificadoresestaticos/domain/Anime.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/estudo/uanderson/javadevdojo/javacore/Fmodificadoresestaticos/domain/Carro.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/estudo/uanderson/javadevdojo/javacore/Fmodificadoresestaticos/domain/Carro.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/estudo/uanderson/javadevdojo/javacore/Fmodificadoresestaticos/test/AnimeTest01.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/estudo/uanderson/javadevdojo/javacore/Fmodificadoresestaticos/test/AnimeTest01.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/estudo/uanderson/javadevdojo/javacore/Gassociacao/dominio/Escola.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/estudo/uanderson/javadevdojo/javacore/Gassociacao/dominio/Escola.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/estudo/uanderson/javadevdojo/javacore/Gassociacao/dominio/Execicio/Aluno.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/estudo/uanderson/javadevdojo/javacore/Gassociacao/dominio/Execicio/Aluno.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/estudo/uanderson/javadevdojo/javacore/Gassociacao/dominio/Execicio/Local.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/estudo/uanderson/javadevdojo/javacore/Gassociacao/dominio/Execicio/Local.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/estudo/uanderson/javadevdojo/javacore/Gassociacao/dominio/Execicio/Professor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/estudo/uanderson/javadevdojo/javacore/Gassociacao/dominio/Execicio/Professor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/estudo/uanderson/javadevdojo/javacore/Gassociacao/dominio/Execicio/Seminario.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/estudo/uanderson/javadevdojo/javacore/Gassociacao/dominio/Execicio/Seminario.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/estudo/uanderson/javadevdojo/javacore/Gassociacao/dominio/Jogador.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/estudo/uanderson/javadevdojo/javacore/Gassociacao/dominio/Jogador.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/estudo/uanderson/javadevdojo/javacore/Gassociacao/dominio/Time.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/estudo/uanderson/javadevdojo/javacore/Gassociacao/dominio/Time.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/estudo/uanderson/javadevdojo/javacore/Gassociacao/teste/EscolaTest01.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/estudo/uanderson/javadevdojo/javacore/Gassociacao/teste/EscolaTest01.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/estudo/uanderson/javadevdojo/javacore/Gassociacao/teste/ExemploAssociacao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/estudo/uanderson/javadevdojo/javacore/Gassociacao/teste/ExemploAssociacao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/estudo/uanderson/javadevdojo/javacore/Gassociacao/teste/JogadorTest01.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/estudo/uanderson/javadevdojo/javacore/Gassociacao/teste/JogadorTest01.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/estudo/uanderson/javadevdojo/javacore/Gassociacao/teste/JogadorTest02.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/estudo/uanderson/javadevdojo/javacore/Gassociacao/teste/JogadorTest02.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/estudo/uanderson/javadevdojo/javacore/Gassociacao/teste/JogadorTest03.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/estudo/uanderson/javadevdojo/javacore/Gassociacao/teste/JogadorTest03.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/estudo/uanderson/javadevdojo/javacore/Hheranca/dominio/Endereco.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/estudo/uanderson/javadevdojo/javacore/Hheranca/dominio/Endereco.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/estudo/uanderson/javadevdojo/javacore/Hheranca/dominio/Funcionario.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/estudo/uanderson/javadevdojo/javacore/Hheranca/dominio/Funcionario.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/estudo/uanderson/javadevdojo/javacore/Hheranca/dominio/Pessoa.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/estudo/uanderson/javadevdojo/javacore/Hheranca/dominio/Pessoa.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/estudo/uanderson/javadevdojo/javacore/Hheranca/test/Funcionario2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/estudo/uanderson/javadevdojo/javacore/Hheranca/test/Funcionario2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/estudo/uanderson/javadevdojo/javacore/Hheranca/test/HerancaTest01.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/estudo/uanderson/javadevdojo/javacore/Hheranca/test/HerancaTest01.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/estudo/uanderson/javadevdojo/javacore/Hheranca/test/HerancaTest02.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/estudo/uanderson/javadevdojo/javacore/Hheranca/test/HerancaTest02.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/estudo/uanderson/javadevdojo/javacore/Isobreescrita/dominio/Anime.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/estudo/uanderson/javadevdojo/javacore/Isobreescrita/dominio/Anime.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/estudo/uanderson/javadevdojo/javacore/Isobreescrita/test/AnimeTest01.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/estudo/uanderson/javadevdojo/javacore/Isobreescrita/test/AnimeTest01.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/estudo/uanderson/javadevdojo/javacore/Jmodificadofinal/dominio/Carro.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/estudo/uanderson/javadevdojo/javacore/Jmodificadofinal/dominio/Carro.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/estudo/uanderson/javadevdojo/javacore/Jmodificadofinal/dominio/Comprador.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/estudo/uanderson/javadevdojo/javacore/Jmodificadofinal/dominio/Comprador.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/estudo/uanderson/javadevdojo/javacore/Jmodificadofinal/dominio/Ferrari.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/estudo/uanderson/javadevdojo/javacore/Jmodificadofinal/dominio/Ferrari.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/estudo/uanderson/javadevdojo/javacore/Jmodificadofinal/test/CarroTest01.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/estudo/uanderson/javadevdojo/javacore/Jmodificadofinal/test/CarroTest01.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/estudo/uanderson/javadevdojo/javacore/Kenumeracao/dominio/Cliente.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/estudo/uanderson/javadevdojo/javacore/Kenumeracao/dominio/Cliente.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/estudo/uanderson/javadevdojo/javacore/Kenumeracao/dominio/TipoCliente.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/estudo/uanderson/javadevdojo/javacore/Kenumeracao/dominio/TipoCliente.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/estudo/uanderson/javadevdojo/javacore/Kenumeracao/dominio/TipoPagamento.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/estudo/uanderson/javadevdojo/javacore/Kenumeracao/dominio/TipoPagamento.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/estudo/uanderson/javadevdojo/javacore/Kenumeracao/test/ClienteTest01.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/estudo/uanderson/javadevdojo/javacore/Kenumeracao/test/ClienteTest01.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/estudo/uanderson/javadevdojo/javacore/Lclassesabstratas/dominio/Desenvolvedor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/estudo/uanderson/javadevdojo/javacore/Lclassesabstratas/dominio/Desenvolvedor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/estudo/uanderson/javadevdojo/javacore/Lclassesabstratas/dominio/Funcionario.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/estudo/uanderson/javadevdojo/javacore/Lclassesabstratas/dominio/Funcionario.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/estudo/uanderson/javadevdojo/javacore/Lclassesabstratas/dominio/Gerente.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/estudo/uanderson/javadevdojo/javacore/Lclassesabstratas/dominio/Gerente.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/estudo/uanderson/javadevdojo/javacore/Lclassesabstratas/dominio/Pessoa.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/estudo/uanderson/javadevdojo/javacore/Lclassesabstratas/dominio/Pessoa.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/estudo/uanderson/javadevdojo/javacore/Lclassesabstratas/test/FuncionarioTest01.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/estudo/uanderson/javadevdojo/javacore/Lclassesabstratas/test/FuncionarioTest01.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/estudo/uanderson/javadevdojo/javacore/Minterfaces/dominio/DataLoader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/estudo/uanderson/javadevdojo/javacore/Minterfaces/dominio/DataLoader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/estudo/uanderson/javadevdojo/javacore/Minterfaces/dominio/DataRemove.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/estudo/uanderson/javadevdojo/javacore/Minterfaces/dominio/DataRemove.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/estudo/uanderson/javadevdojo/javacore/Minterfaces/dominio/Datebaseloader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/estudo/uanderson/javadevdojo/javacore/Minterfaces/dominio/Datebaseloader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/estudo/uanderson/javadevdojo/javacore/Minterfaces/dominio/FileLoader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/estudo/uanderson/javadevdojo/javacore/Minterfaces/dominio/FileLoader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/estudo/uanderson/javadevdojo/javacore/Minterfaces/test/DataLoaderTest01.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/estudo/uanderson/javadevdojo/javacore/Minterfaces/test/DataLoaderTest01.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/estudo/uanderson/javadevdojo/javacore/Npolimorfismo/dominio/Computador.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/estudo/uanderson/javadevdojo/javacore/Npolimorfismo/dominio/Computador.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/estudo/uanderson/javadevdojo/javacore/Npolimorfismo/dominio/Produto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/estudo/uanderson/javadevdojo/javacore/Npolimorfismo/dominio/Produto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/estudo/uanderson/javadevdojo/javacore/Npolimorfismo/dominio/Taxavel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/estudo/uanderson/javadevdojo/javacore/Npolimorfismo/dominio/Taxavel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/estudo/uanderson/javadevdojo/javacore/Npolimorfismo/dominio/Televisao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/estudo/uanderson/javadevdojo/javacore/Npolimorfismo/dominio/Televisao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/estudo/uanderson/javadevdojo/javacore/Npolimorfismo/dominio/Tomate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/estudo/uanderson/javadevdojo/javacore/Npolimorfismo/dominio/Tomate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/estudo/uanderson/javadevdojo/javacore/Npolimorfismo/repositorio/Repositorio.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/estudo/uanderson/javadevdojo/javacore/Npolimorfismo/repositorio/Repositorio.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/estudo/uanderson/javadevdojo/javacore/Npolimorfismo/servico/CalculadoraImposto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/estudo/uanderson/javadevdojo/javacore/Npolimorfismo/servico/CalculadoraImposto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/estudo/uanderson/javadevdojo/javacore/Npolimorfismo/servico/RepositorioArquivo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/estudo/uanderson/javadevdojo/javacore/Npolimorfismo/servico/RepositorioArquivo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/estudo/uanderson/javadevdojo/javacore/Npolimorfismo/servico/RepositorioBancoDeDados.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/estudo/uanderson/javadevdojo/javacore/Npolimorfismo/servico/RepositorioBancoDeDados.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/estudo/uanderson/javadevdojo/javacore/Npolimorfismo/servico/RepositorioMemoria.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/estudo/uanderson/javadevdojo/javacore/Npolimorfismo/servico/RepositorioMemoria.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/estudo/uanderson/javadevdojo/javacore/Npolimorfismo/test/ProdutoTest01.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/estudo/uanderson/javadevdojo/javacore/Npolimorfismo/test/ProdutoTest01.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/estudo/uanderson/javadevdojo/javacore/Npolimorfismo/test/ProdutoTest02.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/estudo/uanderson/javadevdojo/javacore/Npolimorfismo/test/ProdutoTest02.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/estudo/uanderson/javadevdojo/javacore/Npolimorfismo/test/ProdutoTest03.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/estudo/uanderson/javadevdojo/javacore/Npolimorfismo/test/ProdutoTest03.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/estudo/uanderson/javadevdojo/javacore/Npolimorfismo/test/RepositorioTest01.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/estudo/uanderson/javadevdojo/javacore/Npolimorfismo/test/RepositorioTest01.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/estudo/uanderson/javadevdojo/javacore/Oexeception/erro/test/StakerOverflowTeste01.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/estudo/uanderson/javadevdojo/javacore/Oexeception/erro/test/StakerOverflowTeste01.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/estudo/uanderson/javadevdojo/javacore/Oexeception/execption/dominio/Funcionario.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/estudo/uanderson/javadevdojo/javacore/Oexeception/execption/dominio/Funcionario.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/estudo/uanderson/javadevdojo/javacore/Oexeception/execption/dominio/Leitor1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/estudo/uanderson/javadevdojo/javacore/Oexeception/execption/dominio/Leitor1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/estudo/uanderson/javadevdojo/javacore/Oexeception/execption/dominio/Leitor2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/estudo/uanderson/javadevdojo/javacore/Oexeception/execption/dominio/Leitor2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/estudo/uanderson/javadevdojo/javacore/Oexeception/execption/dominio/LoginInvalidException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/estudo/uanderson/javadevdojo/javacore/Oexeception/execption/dominio/LoginInvalidException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/estudo/uanderson/javadevdojo/javacore/Oexeception/execption/dominio/Pessoa.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/estudo/uanderson/javadevdojo/javacore/Oexeception/execption/dominio/Pessoa.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/estudo/uanderson/javadevdojo/javacore/Oexeception/execption/test/ExceptionTest01.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/estudo/uanderson/javadevdojo/javacore/Oexeception/execption/test/ExceptionTest01.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/estudo/uanderson/javadevdojo/javacore/Oexeception/execption/test/LoginInvalidExceptionTest01.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/estudo/uanderson/javadevdojo/javacore/Oexeception/execption/test/LoginInvalidExceptionTest01.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/estudo/uanderson/javadevdojo/javacore/Oexeception/execption/test/SobreescritaComExceptionTest01.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/estudo/uanderson/javadevdojo/javacore/Oexeception/execption/test/SobreescritaComExceptionTest01.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/estudo/uanderson/javadevdojo/javacore/Oexeception/execption/test/TryWithResourcesTest01.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/estudo/uanderson/javadevdojo/javacore/Oexeception/execption/test/TryWithResourcesTest01.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/estudo/uanderson/javadevdojo/javacore/Oexeception/runtime/test/RunTimeExceptionTest03.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/estudo/uanderson/javadevdojo/javacore/Oexeception/runtime/test/RunTimeExceptionTest03.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/estudo/uanderson/javadevdojo/javacore/Oexeception/runtime/test/RunTimeExceptionTest04.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/estudo/uanderson/javadevdojo/javacore/Oexeception/runtime/test/RunTimeExceptionTest04.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/estudo/uanderson/javadevdojo/javacore/Oexeception/runtime/test/RuntimeExceptionTest01.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/estudo/uanderson/javadevdojo/javacore/Oexeception/runtime/test/RuntimeExceptionTest01.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/estudo/uanderson/javadevdojo/javacore/Oexeception/runtime/test/RuntimeExceptionTest02.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/estudo/uanderson/javadevdojo/javacore/Oexeception/runtime/test/RuntimeExceptionTest02.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/estudo/uanderson/javadevdojo/javacore/Pwrapper/test/WrapperTest01.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/estudo/uanderson/javadevdojo/javacore/Pwrapper/test/WrapperTest01.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/estudo/uanderson/javadevdojo/javacore/Qstring/test/StringBuilderTest01.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/estudo/uanderson/javadevdojo/javacore/Qstring/test/StringBuilderTest01.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/estudo/uanderson/javadevdojo/javacore/Qstring/test/StringPerformanceTest01.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/estudo/uanderson/javadevdojo/javacore/Qstring/test/StringPerformanceTest01.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/estudo/uanderson/javadevdojo/javacore/Qstring/test/StringTest01.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/estudo/uanderson/javadevdojo/javacore/Qstring/test/StringTest01.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/estudo/uanderson/javadevdojo/javacore/Qstring/test/StringTest02.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/estudo/uanderson/javadevdojo/javacore/Qstring/test/StringTest02.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/estudo/uanderson/javadevdojo/javacore/Ycolecoes/test/NavigableMapTest01.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/estudo/uanderson/javadevdojo/javacore/Ycolecoes/test/NavigableMapTest01.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/log4j2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/message_en_US.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/message_pt_BR.properties" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 3
+}</component>
+  <component name="ProjectId" id="2rZTxNNB19PTrOLGYyyVOJ39av2" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.ProdutoTest01.executor&quot;: &quot;Run&quot;,
+    &quot;Maven.maratona-java [clean].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.maratona-java [install].executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.AccountsToCodyMigration&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ChatTagsLlmMigration&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.CodyAccountHistoryMigration&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.CodyAccountsIdsRefresh&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.CodyAssignOrphanedChatsToActiveAccount&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.CodyConvertUrlToCodebaseName&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.CodyHistoryLlmMigration&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.CodyMigrateChatHistory-v2&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.CodyProjectSettingsMigration&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.DeprecatedChatLlmMigration&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ToggleCodyToolWindowAfterMigration&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/uanderson/Documentos/maratona-java-devdojo/maratona-java-devdojo&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.18359375&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.29700598&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.DirectoryMappings&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RunManager">
+    <configuration name="ProdutoTest01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="estudo.uanderson.javadevdojo.javacore.Npolimorfismo.test.ProdutoTest01" />
+      <module name="maratona-java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="estudo.uanderson.javadevdojo.javacore.Npolimorfismo.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.ProdutoTest01" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-fdfe4dae3a2d-intellij.indexing.shared.core-IU-243.22562.218" />
+        <option value="bundled-js-predefined-d6986cc7102b-deb605915726-JavaScript-IU-243.22562.218" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="5c29c390-44ca-4b62-ab18-5f84de64e920" name="Changes" comment="" />
+      <created>1736765847689</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1736765847689</updated>
+      <workItem from="1736765850881" duration="2219000" />
+      <workItem from="1736768097259" duration="48000" />
+      <workItem from="1736768516204" duration="12000" />
+      <workItem from="1736768553229" duration="14000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$" />
+    </ignored-roots>
+  </component>
+</project>

@@ -18,7 +18,7 @@ public class DataLoaderTest01 {
         fileLoader.checkPermission();
 
         //Lembrando por ser um  method static são chamados pelo nome da classe a quem pertencem.
-        DataLoader.retrieveMaxDataSize();
+       DataLoader.retrieveMaxDataSize();
        Datebaseloader.retrieveMaxDataSize();
 
 

@@ -3,17 +3,21 @@ package estudo.uanderson.javadevdojo.javacore.Oexeception.runtime.test;
 public class RunTimeExceptionTest03 {
     public static void main(String[] args) {
         abreConexao();
+        System.out.println("==================");
+        abreConexao2();
     }//main
 
     private static String abreConexao(){
         try {
             System.out.println("Abrindo o arquivo");
             System.out.println("Escrevendo dados no arquivo");
+            System.out.println("Forçando um erro [RuntimeException] . . .");
             throw new RuntimeException();
         }catch (Exception e){
            e.printStackTrace();
 
         }finally {
+            System.out.println("Dentro do bloco finally . . . ");
             System.out.println("Fechando recurso liberado pelo SO");
             System.out.println("Comprovando que o bloco finaly sempre será executado");
         }

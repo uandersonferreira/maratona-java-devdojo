@@ -1,6 +1,6 @@
 package estudo.uanderson.javadevdojo.javacore.Lclassesabstratas.dominio;
 
-public class Gerente extends Funcionario {//CLASSE CONCRETA
+public class Gerente extends Funcionario {//CLASSE CONCRETA QUE HERDA DA CLASSE B
 
     public Gerente(String nome, double salario) {
         super(nome, salario);

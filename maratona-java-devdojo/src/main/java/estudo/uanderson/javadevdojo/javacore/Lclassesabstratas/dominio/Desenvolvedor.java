@@ -1,6 +1,6 @@
 package estudo.uanderson.javadevdojo.javacore.Lclassesabstratas.dominio;
 
-public class Desenvolvedor extends Funcionario{//CLASSE CONCRETA
+public class Desenvolvedor extends Funcionario{//CLASSE CONCRETA QUE HERDA DA CLASSE B
     public Desenvolvedor(String nome, double salario) {
         super(nome, salario);
     }
@@ -12,7 +12,7 @@ public class Desenvolvedor extends Funcionario{//CLASSE CONCRETA
 
 //    @Override
 //    public void imprime() {
-////metodo implementado da classe Person, por causa da REGRA.
+//          //metodo implementado da classe Person, por causa da REGRA.
 //    }
 
     @Override

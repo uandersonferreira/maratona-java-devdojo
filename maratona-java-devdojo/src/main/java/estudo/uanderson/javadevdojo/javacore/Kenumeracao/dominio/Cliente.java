@@ -6,7 +6,8 @@ public class Cliente {
     private TipoPagamento tipoPagamento;//relação é um/agregação
 
 
-    public Cliente(String nome, TipoCliente tipoCliente, TipoPagamento tipoPagamento) {
+    public Cliente(String nome, TipoCliente tipoCliente, 
+    TipoPagamento tipoPagamento) {
         this.nome = nome;
         this.tipoCliente = tipoCliente;
         this.tipoPagamento = tipoPagamento;

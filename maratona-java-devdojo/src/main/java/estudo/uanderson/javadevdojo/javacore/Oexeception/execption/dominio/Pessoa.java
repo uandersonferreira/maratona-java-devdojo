@@ -4,7 +4,10 @@ import java.io.FileNotFoundException;
 
 public class Pessoa {
     public void salvar() throws LoginInvalidException, FileNotFoundException {
-        System.out.println("salvando Person");
+        // Este método declara duas exceções verificadas:
+        // - LoginInvalidException (exceção personalizada).
+        // - FileNotFoundException (exceção padrão do Java).
+        System.out.println("Salvando Pessoa");
     }
-    //aula 105
+    
 }//class

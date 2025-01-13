@@ -21,7 +21,15 @@ public class PessoaTeste01 {
 
 /*
 Acoplamento é o quanto uma classe está conectada com a outra. Ou seja, o quanto
-uma classe sabe/ tem acesso na outra classe.
-Baixo acoplamento é bom, alto acoplamento é ruim.
+uma classe sabe/tem acesso na outra classe. 
+
+Para isso usamos os modificadores de acesso, para limitar o acesso direto 
+aos atributos e passamos a fornecer um metódo publico que irá fazer a alteração
+desse atributo ou recuperação (set e get).
+
+Baixo acoplamento é bom (private) ->  pessoa.setNome("Uanderson");
+Alto acoplamento é ruim(public) ->  pessoa.nome("Uanderson");
+
 Alta adesão é bom e baixa adesão é ruim.
+
  */

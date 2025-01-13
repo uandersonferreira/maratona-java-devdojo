@@ -4,6 +4,25 @@ public class Arrays02 {
     public static void main(String[] args) {
 
         //Arrays Multidimensionais
+        //1° Array => 1,2,3,4,5... Meses
+        //2° Array => 31, 28, 31, 30 Dias de um Mês
+
+        //A BASE 1° parte do array precisamos definir o tamanho, mas a segunda parte não é obrigatório.
+       // int[][] diasMes = new int[12][];
+
+        /*
+            new int[BASE][ARRAYS]
+
+                        [-] [-] [-]  A base terá as ref. de memória de 3 arrays
+                         0   1   2
+
+            [0] [0] [0]   [0] [0] [0]  [0] [0] [0]  Os 3 arrays terá 3 posições
+             0   1   2     1   2   3    1    2  3
+
+             A lógica é a mesma caso aumente a quantidade de arrays. E teremos que percorrer cada um 
+             deles usando um fori ou foreach 
+
+         */
 
         int[][] dias = new int[3][3];
 
@@ -25,6 +44,7 @@ public class Arrays02 {
             }//2° for
 
         }//for
+
         System.out.println("\n==========================================");
         //OUTRA FORMA DE IMPRIMIR OS VALORES DO ARRAY
 
